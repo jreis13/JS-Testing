@@ -1,4 +1,3 @@
-import {username} from 'til-shared/generate'
 import {isPasswordAllowed, userToJSON} from '../auth'
 
 test('isPasswordAllowed only allows some passwords', () => {
